@@ -74,8 +74,10 @@ pip install -r requirements.txt
 ```bash
 scrapy crawl dice_jobs
 ```
-This will scrape job data from Dice and send it to the Django backend.
 
+
+This will scrape job data from Dice and send it to the Django backend.
+#### Access your api at http://127.0.0.1:8000/api/ 
 ### Frontend Setup (React)
 1. Navigate to the frontend directory:
 ```bash
