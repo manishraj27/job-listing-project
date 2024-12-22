@@ -33,7 +33,7 @@ Make sure you have the following installed:
 ### Backend Setup (Django)
 1. Clone the repository:
    ```bash
-   git clone <repo_url>
+   git clone https://github.com/manishraj27/job-listing-project
    ```
 2. Create and activate a virtual environment:
     ```bash
