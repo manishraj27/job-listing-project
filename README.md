@@ -88,11 +88,7 @@ cd frontend
 npm install
 ```
 
-3. Start the development server:
-```bash
-npm run dev
-```
-4. Make lib folder in src and create utils.js and add the following code.
+3. Make lib folder in src and create utils.js and add the following code.
    ```javascript
    import { clsx } from "clsx"
    import { twMerge } from "tailwind-merge"
@@ -101,6 +97,12 @@ npm run dev
    return twMerge(clsx(inputs))
    }
    ```
+
+   
+4. Start the development server:
+```bash
+npm run dev
+```
 The frontend will be running at http://localhost:5173/.
 
 ### Complete Workflow
